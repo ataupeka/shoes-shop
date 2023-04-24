@@ -1,6 +1,9 @@
 import React from "react";
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import React from "react";
+
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import PageOne from "./components/PageOne";
 import PageItemsForMen from "./components/PageItemsForMen";
@@ -33,7 +36,8 @@ function App() {
         </nav>
 
         <Routes>
-          <Route path="/home_page" element={<PageOne />} />
+          <Route index element={<PageOne />} />
+
           <Route path="/items_for_women" element={<PageItemsforWomen />} />
           <Route path="/items_for_men" element={<PageItemsForMen />} />
         </Routes>
