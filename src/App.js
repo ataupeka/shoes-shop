@@ -37,7 +37,8 @@ function App() {
 
         <Routes>
           <Route index element={<PageOne />} />
-
+            
+          <Route path="/home_page" element={<PageOne />} />
           <Route path="/items_for_women" element={<PageItemsforWomen />} />
           <Route path="/items_for_men" element={<PageItemsForMen />} />
         </Routes>
