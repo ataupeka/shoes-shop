@@ -1,19 +1,15 @@
 
 
-import Main from './main'
-import Navbar from './navbar';
+
+import Main from "./main";
 
 
-
-function PageOne(){
-    return<div>  
-        <div className="container space">
-    <Navbar/>
-    <Main/>
-       </div> 
-</div>
-
-
-
+function PageOne() {
+  return (
+    <div>
+      <Main />
+    
+    </div>
+  );
 }
 export default PageOne;
